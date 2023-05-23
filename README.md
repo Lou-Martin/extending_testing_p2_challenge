@@ -14,3 +14,8 @@ First Entry: My intial thought when starting the challenge was to run the progra
 Second Entry: I've now created a diagram of the filestructure in an effort to better understand the applications functions.
 
 Third Entry: I've added three md's (initial_events, initial_states, initial_transitions - in addition to the initial_file_structure_diagram) that set out my initial expectations of the application. This will be useful to refer back to since any deviation from the way a user expects an application to work and to how it actually functions can be jarring (dependent on the size of the variation).
+
+Fourth Entry: My next step will be to manually create a small sample of scenarios to ensure I understand the functionality of the program. To reiterate - I don't intend to find bugs at this point; that isn't the aim of this step, however, if I happen across any unusual scenarios I will add my findings to the notes section below.
+
+
+NOTES:
