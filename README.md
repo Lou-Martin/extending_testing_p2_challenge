@@ -23,6 +23,8 @@ The inclusion of both a droplist and(?)/or a droplist seems at first glance an a
 
 **Seventh Entry:** Before I execute my test plan I'll write a small script to generate sample data. Should my test plan raise any issues I want to investigate further I can use this script to quickly populate the data needed to continue testing.
 
+**Eigth Entry:** Following the test plan revealed an unexpected outcome in the first scenario - this outcome was further explored in test scenario 4 so I proceeded there; during this time I had drilled down and created further tests to verify my theories. With this in mind I did not complete the three remaining test cases due to time constraints. Given more time I would explore those tests and the ones I had listed in the test plan.
+
 
 
 NOTES: 
