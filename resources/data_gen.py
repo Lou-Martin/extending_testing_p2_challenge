@@ -14,7 +14,7 @@ if os.path.isdir(dir_path):
     for _ in range(5):
         # Generate fake name and address
         name = f"{fake.prefix()} {fake.first_name()} {fake.last_name()}"
-        address = fake.address().replace('\n', ', ')
+        address = fake.address()
 
         # Use the last name (split by space and get the last element) as the file name
         file_name = name.split()[-1]
