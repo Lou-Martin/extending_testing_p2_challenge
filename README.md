@@ -1,7 +1,8 @@
 # extending_testing_p2_challenge
 **Overview**
 
-Find below several sections of text which outline my initial thoughts, a "play by play" of how I've tackled this problem (Log), test plan (to be added), and notes ~~(to be added)~~.
+Find below several sections of text which outline my initial thoughts, a "play by play" of how I've tackled this problem (Log), test plan ~~(to be added)~~, and notes ~~(to be added)~~.
+TLDR? Please see the latter (7th/8th) entries in the log and the bug report .md in the repo root.
 
 **Initial thoughts**
 
