@@ -3,7 +3,7 @@ Test Script 1: Happy Path with Allowlist
 Precondition: Populate the originals directory with the generated files.
 Action: Create an allowlist file containing all the surnames used in the originals directory.
 Expected Result: After running the program, all files from the originals directory should be copied to the finals directory.
-Actual Result:
+Actual Result: Upon running the program with Ali Archer Ball Coach Myers Winter in the allowlist only Coach made it into finals. The names on the allowlist were separated by newlines. Re-running test with items on allowlist seperated by commas. Same result, only Coach made it onto the finals.  PROCEED TO TEST SCRIPT 4.
 
 
 Test Script 2: Happy Path with Droplist
@@ -27,8 +27,17 @@ Test Script 4: Updates Supersedes Originals
 Precondition: Populate the originals and updates directories with files. Some files in updates have the same surname as those in originals.
 Action: Create an allowlist file with all the surnames used in the originals directory.
 Expected Result: After running the program, the finals directory should contain all files from updates and only files from originals that do not have a corresponding file in updates.
-Actual Result:
+Actual Result: Regardless of if a file is in originals, if a file is in updates then it will proceed to finals. It must however be on the allowlist(?) this is true if the allowlist is empty but further testing required to determine if there is *anything* on the allowlist then it may still allow other items to populate finals.
+![Screenshot 2023-05-24 at 16 14 43](https://github.com/Lou-Martin/extending_testing_p2_challenge/assets/106453870/b71b6ff0-8d67-4e5c-a55b-ad255166769f)
 
+PART TWO:
+Testing the interactions of the update/allowlist/originals list continues and shows that if the allowlist is not empty (in this case it held the name "Dickinson") then there is the potential for further names to be populated in finals. See below screenshot.
+Allowlist: Dickinson
+Originals: Brown Coach Dickinson Goddard Parsons Williams
+Updates: Coach
+Finals: Coach Dickinson (note: Coach (from updates) and Dickinson (from originals)
+
+![Screenshot 2023-05-24 at 16 21 04](https://github.com/Lou-Martin/extending_testing_p2_challenge/assets/106453870/e2228085-49e1-4d7f-a1c0-448344a9a7ad)
 
 Test Script 5: Both Allowlist and Droplist Present
 
