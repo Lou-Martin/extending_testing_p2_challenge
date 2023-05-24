@@ -28,6 +28,7 @@ Precondition: Populate the originals and updates directories with files. Some fi
 Action: Create an allowlist file with all the surnames used in the originals directory.
 Expected Result: After running the program, the finals directory should contain all files from updates and only files from originals that do not have a corresponding file in updates.
 Actual Result: Regardless of if a file is in originals, if a file is in updates then it will proceed to finals. It must however be on the allowlist(?) this is true if the allowlist is empty but further testing required to determine if there is *anything* on the allowlist then it may still allow other items to populate finals.
+
 ![Screenshot 2023-05-24 at 16 14 43](https://github.com/Lou-Martin/extending_testing_p2_challenge/assets/106453870/b71b6ff0-8d67-4e5c-a55b-ad255166769f)
 
 PART TWO:
