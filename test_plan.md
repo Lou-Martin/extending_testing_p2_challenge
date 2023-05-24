@@ -36,3 +36,34 @@ Precondition: Populate the originals directory with the generated files.
 Action: Create both an allowlist and droplist file in the root directory.
 Expected Result: After running the program, an error message should be displayed stating that both an allowlist and droplist are present.
 Actual Result:
+
+
+
+IDEAS FOR FURTHER TESTING
+
+The below feature a list of ideas I may want to test in loose priority order
+
+target_directory is not present.
+originals directory is not present.
+updates directory is not present.
+allowlist file is not present.
+droplist file is not present.
+allowlist is empty.
+droplist is empty.
+originals directory is empty.
+updates directory is empty.
+allowlist contains all entries present in originals and updates.
+droplist contains all entries present in originals and updates.
+allowlist contains items that aren't in originals/updates.
+droplist contains items that aren't in originals/updates.
+Both allowlist and droplist are present and contain entries.
+Both allowlist and droplist are present and empty.
+Files in updates directory have the same names as in originals directory.
+Files in updates directory have different names than in originals directory.
+Files in originals and updates have the same content.
+Files in originals and updates have different content.
+Handling of files with special characters in the name.
+Handling of files with very long names.
+Handling of large files.
+Handling of files with non-standard text encodings.
+Handling of subdirectories in originals and updates directories.
