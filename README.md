@@ -17,5 +17,7 @@ Third Entry: I've added three md's (initial_events, initial_states, initial_tran
 
 Fourth Entry: My next step will be to manually create a small sample of scenarios to ensure I understand the functionality of the program. To reiterate - I don't intend to find bugs at this point; that isn't the aim of this step, however, if I happen across any unusual scenarios I will add my findings to the notes section below.
 
+Fifth Entry: I've ran 5 sample scenarios to understand the application, one point worthy of highlighting is the time involved in creating a "clean slate" to work from since the program modifies the file structure. To this end I've written a small helper script to return the files to their default state. 
 
-NOTES:
+
+NOTES: 
