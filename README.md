@@ -23,5 +23,13 @@ The inclusion of both a droplist and(?)/or a droplist seems at first glance an a
 
 **Seventh Entry:** Before I execute my test plan I'll write a small script to generate sample data. Should my test plan raise any issues I want to investigate further I can use this script to quickly populate the data needed to continue testing.
 
+
+
 NOTES: 
 On resources - within the resources directory there are two items named "clean slate" or variations there of. One is a python file and the other a directory. The python file simply purges the testing ground directory and copies the directory also named clean slate back to testing grounds. This (as the name implies) sets a repeatable, clean, test area.
+
+On using data_gen.py and clean_slate.py: cd resources > python3 clean_slate.py > python3 data_gen.py > add generated data to allowlist or drop list manually (could automate here) > perform required testing > cd resources > python3 clean_slate.py 
+
+This aids a clean workflow: see below for usage case
+
+![Screenshot 2023-05-24 at 15 45 20](https://github.com/Lou-Martin/extending_testing_p2_challenge/assets/106453870/6ef423ff-a457-4363-8b98-51c2fd526dbd)
