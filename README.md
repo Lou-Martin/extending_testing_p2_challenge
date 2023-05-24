@@ -21,6 +21,7 @@ The inclusion of both a droplist and(?)/or a droplist seems at first glance an a
 
 **Sixth Entry:** To aid readbility I've spent a little time formatting the repo. I've also included my testplan - find it in the repos root folder.
 
+**Seventh Entry:** Before I execute my test plan I'll write a small script to generate sample data. Should my test plan raise any issues I want to investigate further I can use this script to quickly populate the data needed to continue testing.
 
 NOTES: 
 On resources - within the resources directory there are two items named "clean slate" or variations there of. One is a python file and the other a directory. The python file simply purges the testing ground directory and copies the directory also named clean slate back to testing grounds. This (as the name implies) sets a repeatable, clean, test area.
