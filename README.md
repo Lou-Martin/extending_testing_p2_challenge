@@ -21,3 +21,4 @@ Fifth Entry: I've ran 5 sample scenarios to understand the application, one poin
 
 
 NOTES: 
+On resources - within the resources directory there are two items named "clean slate" or variations there of. One is a python file and the other a directory. The python file simply purges the testing ground directory and copies the directory also named clean slate back to testing grounds. This (as the name implies) sets a repeatable, clean, test area.
