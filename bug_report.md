@@ -30,4 +30,4 @@ This issue needs further investigation to understand the underlying cause. It's 
 
 Please note that the above details are based on observed application behaviour and could be subject to variations based on other untested conditions or configurations.
 
-Please see below for screenshots pertaining to the issue.
+Please see test_plan.md for screenshots pertaining to the issue.
