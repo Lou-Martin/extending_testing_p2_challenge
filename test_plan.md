@@ -6,7 +6,7 @@ Expected Result: After running the program, all files from the originals directo
 Actual Result: Upon running the program with Ali Archer Ball Coach Myers Winter in the allowlist only Coach made it into finals. The names on the allowlist were separated by newlines. Re-running test with items on allowlist seperated by commas. Same result, only Coach made it onto the finals.  PROCEED TO TEST SCRIPT 4.
 
 
-~~Test Script 2: Happy Path with Droplist~~ Removed due to timeconstraints
+~~Test Script 2: Happy Path with Droplist~~ *Removed due to timeconstraints
 
 Precondition: Populate the originals directory with the generated files.
 Action: Create a droplist file with none of the surnames used in the originals directory.
@@ -14,7 +14,7 @@ Expected Result: After running the program, all files from the originals directo
 Actual Result:
 
 
-~~Test Script 3: Droplist Supersedes Originals~~ Removed due to timeconstraints
+~~Test Script 3: Droplist Supersedes Originals~~ *Removed due to timeconstraints
 
 Precondition: Populate the originals directory with the generated files.
 Action: Create a droplist file with some of the surnames used in the originals directory.
@@ -22,7 +22,7 @@ Expected Result: After running the program, only files with surnames not include
 Actual Result:
 
 
-~~Test Script 4: Updates Supersedes Originals~~ Removed due to timeconstraints
+Test Script 4: Updates Supersedes Originals
 
 Precondition: Populate the originals and updates directories with files. Some files in updates have the same surname as those in originals.
 Action: Create an allowlist file with all the surnames used in the originals directory.
@@ -51,7 +51,7 @@ Actual Result: As expected, even if an entry is not on the allowlist and if the 
 
 ![Screenshot 2023-05-24 at 17 10 30](https://github.com/Lou-Martin/extending_testing_p2_challenge/assets/106453870/5059c65d-9f94-4624-925a-2504610903f4)
 
-~~Test Script 5: Both Allowlist and Droplist Present~~ Removed due to timeconstraints
+~~Test Script 5: Both Allowlist and Droplist Present~~ *Removed due to timeconstraints
 
 Precondition: Populate the originals directory with the generated files.
 Action: Create both an allowlist and droplist file in the root directory.
